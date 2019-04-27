@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: "123321xlb"
+    #   url:  jdbc:mysql://localhost:3306/testjpa?serverTimezone=UTC&autoReconnect=true&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&autoReconnect=true&useUnicode=true&characterEncoding=utf-8
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 80
