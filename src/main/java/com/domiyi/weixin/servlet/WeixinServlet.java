@@ -65,7 +65,8 @@ public class WeixinServlet  extends HttpServlet{
 
             String message = null;
             if (MessageUtil.MESSAGE_TEXT.equals(msgType)){
-                //按照关键字进行回复
+                //按照关键字进行回复d
+
                 if ("1".equals(content)){
                     message = MessageUtil.initText(toUserName,fromUserName,MessageUtil.firstMenu());
                 }else if ("2".equals(content)){
